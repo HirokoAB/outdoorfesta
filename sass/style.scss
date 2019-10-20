@@ -1,6 +1,161 @@
-.test{
-    width:100px;
-    display: flex;
-    border-radius: 10px;
-    font-style:bold;
+@import url(reset.css);
+
+ header{
+ 	height: 60px;
+ }
+
+.img_box{
+	width: 100vw;
+	height: auto;
+	min-height: 100vh;
+	background: linear-gradient( 130deg, rgba(255, 165, 0, 0.8), rgba(254, 225, 64, 0.8)),
+  url(../img/outdoor_img.jpg);
+	background-size:cover;
+	background-position: center;
+	// background-image:url( ../img/outdoor_img.jpg ); 
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:relative;
+
+ }
+
+// 背景画像に色を重ねるだけの場合はこのコード
+ // .img_box::after{
+	// content:'';
+ // 	background-color: rgba(255, 255, 255, 0.7);
+ // 	position: absolute;
+ // 	top:0;
+ // 	right:0;
+ // 	bottom:0;
+ // 	left:0; 
+
+
+ // }
+
+ .img_box > img{
+ 	margin: auto;
+ 	height:100vh;
+ 	width:auto;
+ 	min-height:100vh;
+ }
+#timer{
+	position: absolute;
+	color:white;
+	font-family: "M PLUS 1p";
+	font-size:2rem;
 }
+.yycountdown-box{
+	// display:flex;
+	// justify-content:center;
+	// text-align:center;
+	// align-items:center;
+	// flex-direction:column;
+	text-align:center;
+	margin-top:20px;
+
+
+
+}
+.yycountdown-box::before,
+.yycountdown-box::after
+{
+	content:'It is\A';
+	white-space:pre;
+	text-align: center;
+	font-size:1.5rem;
+	margin-bottom:100px;
+	color:white;
+
+
+}
+
+.yycountdown-box::after{
+	content:'to\A';
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .hamburger {
+  display: none;
+  width: 28px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.hamburger span::after,
+.hamburger span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+
+.hamburger span::after{
+  top: 9px;
+}
+
+.hamburger span {
+  position: relative;
+  display: block;
+}
+
+.hamburger span,
+.hamburger span::after,
+.hamburger span::before {
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  transition: all 0.5s;    
+  /*←アニメーション*/
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+.hamburger.on span {
+  background-color: transparent;
+}
+
+.hamburger.on span::before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.on span::œafter {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+/* ハンバーガーメニューここまで */

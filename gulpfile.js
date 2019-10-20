@@ -25,7 +25,8 @@ gulp.task("default",function(){
 					cascade: false
 				})
 				]))
-		    .pipe(gulp.dest("./assets/css"))
+		    .pipe(gulp.dest("./css"))
+		    
 		);
 	});
 });

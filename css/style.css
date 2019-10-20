@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url(reset.css);
+header {
+  height: 60px;
+}
+
+.img_box {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  background: -webkit-linear-gradient(320deg, rgba(255, 165, 0, 0.8), rgba(254, 225, 64, 0.8)), url(../img/outdoor_img.jpg);
+  background: linear-gradient(130deg, rgba(255, 165, 0, 0.8), rgba(254, 225, 64, 0.8)), url(../img/outdoor_img.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.img_box > img {
+  margin: auto;
+  height: 100vh;
+  width: auto;
+  min-height: 100vh;
+}
+
+#timer {
+  position: absolute;
+  color: white;
+  font-family: "M PLUS 1p";
+  font-size: 2rem;
+}
+
+.yycountdown-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.yycountdown-box::before,
+.yycountdown-box::after {
+  content: 'It is\A';
+  white-space: pre;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 100px;
+  color: white;
+}
+
+.yycountdown-box::after {
+  content: 'to\A';
+}
+
+.hamburger {
+  display: none;
+  width: 28px;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.hamburger span::after,
+.hamburger span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+
+.hamburger span::after {
+  top: 9px;
+}
+
+.hamburger span {
+  position: relative;
+  display: block;
+}
+
+.hamburger span,
+.hamburger span::after,
+.hamburger span::before {
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  /*←アニメーション*/
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+.hamburger.on span {
+  background-color: transparent;
+}
+
+.hamburger.on span::before {
+  -webkit-transform: rotate(45deg) translate(5px, 5px);
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.on span::œafter {
+  -webkit-transform: rotate(-45deg) translate(7px, -8px);
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+
+/* ハンバーガーメニューここまで */
