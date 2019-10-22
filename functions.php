@@ -66,4 +66,64 @@
   	wp_enqueue_style( 'style.css', get_template_directory_uri() . '/css/style.css', array(), '1.0.3' );
 }
 	add_action( 'wp_enqueue_scripts', 'my_styles' );
+
+
+//抜粋の削除
+function new_excerpt_more($more){
+    global $post;
+    return '';
+}
+add_filter('excerpt_more','new_excerpt_more',9999);
+//抜粋の文字数の指定
+function custom_excerpt_length( $length ) {
+     return 110; 
+}       
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+// カスタム投稿タイプの追加
+add_action( 'init', 'create_post_type' );
+
+function create_post_type() {
+register_post_type( 'event', // 投稿タイプ名の定義
+array(
+'labels' => array(
+'name' => __( 'イベント' ), // 表示する投稿タイプ名
+'singular_name' => __( 'イベント' )
+),
+'supports' => array( 'title', 'editor', 'thumbnail' ),
+'public' => true,
+'menu_position' =>5,
+)
+);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
