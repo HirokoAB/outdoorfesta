@@ -31,7 +31,7 @@ $(document).ready(function() {
 
 
 $('#timer').yycountdown({
-  startDateTime : '2019/10/20 23:59:55',  //カウントダウン開始日時
+ //カウントダウン開始日時
   endDateTime   : '2019/10/26 10:00:00',  //カウントダウン終了日時
   unit          : {d: '日', h: '時間', m: '分', s: '秒'},  //カウントダウン単位
   // complete      : function(_this){  //カウントダウン完了時のコールバック
@@ -39,4 +39,66 @@ $('#timer').yycountdown({
   //                 }
 });
 
-console.log('タイマーの検査');
+console.log('タイマーの検査js');
+
+
+
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+/////////////////////////////indexのjs///////////////////////
+////////////////////////////////////////////////////////////
+setInterval("goFlash()",9000);
+
+function goFlash() {
+    $('.keybox').addClass('vertical_sec');
+    setTimeout("removeFlash()",500);
+}
+
+function removeFlash() {
+    $('.keybox').removeClass('vertical_sec');
+}
+
+//吹き出しの記述　クエリですが//
+$(function () {
+  $('.key').hover(function() {
+    $(this).next('p').show();
+  }, function(){
+    $(this).next('p').hide();
+  });
+});
+
+
+
+// function cover_image(){
+
+//  var ww = $(window).width();
+
+//  if (ww < 400){
+//    var elem = document.createElement("img");
+
+  
+//    elem.src = "assets/img/yoko_guide.jpg";
+//    elem.style.position = "absolute";
+//    elem.className = "cover";
+
+//    document.getElementById("cover_img").appendChild(elem);
+
+//  }else if(ww > 300){
+//    var box = document.getElementById("cover_img");
+//    var box = box.parentNode;
+//    box.removeChild(box);
+//  }
+// }
+// $(document).ready(function(){
+//  cover_image()
+// });
+// $(window).resize(function(){
+//  cover_image()
+// });
+
+function add_flash(){
+  var ww = $(window).width();
+  if(ww < 400){
+    $('.icon').addClass('flash');
+  }
+}

@@ -3,12 +3,24 @@
 body{
 	margin-top:0;
     font-family: 'Noto Sans JP', "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic Pro", "Meiryo", verdana, "Osaka", "MS PGothic", Sans-Serif;
+    text-size-adjust: 100%;
     background-color: #ECECEC;
    	background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #F9F9F9), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #F9F9F9),color-stop(.75, #F9F9F9), color-stop(.75, transparent),to(transparent));
    	background-size: 14px 14px;
 
+
 }
 
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+ 
+footer {
+  margin-top: auto;
+}
  // header{
  // 	height: 60px;
  // }
@@ -33,21 +45,43 @@ img{
 }
 
 
-
-/////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////
-
-
-.main-container{
-	background-color:white;
-}
 .margin-auto{
 	margin:auto;
 }
 
+.text-center{
+	text-align:center;
+}
+
+.text-right{
+	text-align:right;
+}
+
+.text-six{
+	font-weight: 600;
+}
+
+.text-seven{
+	font-weight: 700;
+}
+
+.flex{
+	display:flex;
+}
+.align-center{
+	align-items:center;
+}
+.mgn-3{
+	margin:3px;
+}
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
 .content{
 	margin-top:50px;
+	padding-bottom: 50px;
+	background-color:white;
 }
 
 
@@ -82,18 +116,6 @@ img{
 
  }
 
-// 背景画像に色を重ねるだけの場合はこのコード
- // .img_box::after{
-	// content:'';
- // 	background-color: rgba(255, 255, 255, 0.7);
- // 	position: absolute;
- // 	top:0;
- // 	right:0;
- // 	bottom:0;
- // 	left:0; 
-
-
- // }
 
 
 
@@ -128,17 +150,6 @@ img{
 .yyc-min-text,.yyc-sec-text{
 	font-size:1rem;
 }
-// .yycountdown-box::before {
-// 	display:inline-block;
-// 	content:'開催まであと\A';
-// 	white-space:pre;
-// 	text-align: center;
-// 	font-size:1.5rem;	
-// 	color:white;
-// 	height:30px;
-// 	margin-right:100px;
-
-// }
 
 //スライダーの設定
 .owl-item > img{
@@ -161,7 +172,27 @@ img{
 // }
 
 
-//ブログの表示
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
 
 .blog-container{
 	display:flex;
@@ -216,10 +247,30 @@ img{
 	content:'▶︎';
 }
 
+.see-more{
+	padding-top:30px;
+	font-size: 1.2rem;
+}
+
+.see-more >p{
+	content:'';
+ 	display:block;
+ 	height:10px;
+ 	width:100%;
+	background:black;
+	margin-top:5px;
+
+}
 
 
-//singleページのCSS
 
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+.single-content >p{
+	line-height: 2;
+}
 .article_img > img{
 	width:100%;
 	height:auto;
@@ -240,61 +291,110 @@ img{
 }
 
 
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+.footer{
+	height:60px;
+	background-color:black;
+
+}
 
 
 
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+.archive-base{
+	margin-top:0;
+    font-family: 'Noto Sans JP', "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic Pro", "Meiryo", verdana, "Osaka", "MS PGothic", Sans-Serif;
+    background-color: #ECECEC;
+   	background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #F9F9F9), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #F9F9F9),color-stop(.75, #F9F9F9), color-stop(.75, transparent),to(transparent));
+   	background-size: 14px 14px;
+
+}
+.base{
+	background-color:white;
+	padding:3%;
+	padding-top:5%;
+}
+
+.archive-box{
+	margin-top:10%;
+}
+.archive-container{
+	display:flex;
+	align-items:center;
+}
+
+.archive-container img{
+	width:200px;
+	height:200px;
+}
+
+.archive-row{
+	margin-left:2%;
+}
 
 
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 
 
+.single_img > img{
+	width:100%;
+	height:500px;
+}
+
+.single-upper,.single-content{
+	margin-top:2%;
+	justify-content:space-between;
+	padding:2%;
+}
+
+.nav-box{
+	margin-top:3%;
+}
+
+.single-base{
+	background-image:url(../img/outdoor.svg);
+
+}
 
 
+@media screen and (max-width: 480px) {
+	#timer{
+		width:70%;
+	}
+	.yycountdown-box{
+		font-size:30px;
 
-//  .hamburger {
-//   display: none;
-//   width: 28px;
-//   align-self: center;
-//   margin-right: 20px;
-// }
+	}
+	.timer_title{
+		font-size:16px;
+	}
+	.single-upper{
+		padding:0;
+		flex-direction:column;
+	}
+	.single-upper >h1{
+		font-size:16px;
+	}
+	.post-date{
+		font-size:9px;
+	}
+	.single-content >p{
+	font-size: 10px;
+	}
+	.single_img > img{
+	height: 150px;
 
-// .hamburger span::after,
-// .hamburger span::before {
-//   content: "";
-//   position: absolute;
-//   left: 0;
-//   top: -9px;
-// }
+	}
 
-// .hamburger span::after{
-//   top: 9px;
-// }
+	hr{
+		margin:0.5em 0;
+	}
 
-// .hamburger span {
-//   position: relative;
-//   display: block;
-// }
-
-// .hamburger span,
-// .hamburger span::after,
-// .hamburger span::before {
-//   width: 100%;
-//   height: 5px;
-//   background-color: #fff;
-//   transition: all 0.5s;    
-//   /*←アニメーション*/
-//   backface-visibility: hidden;
-//   border-radius: 2px;
-// }
-
-// .hamburger.on span {
-//   background-color: transparent;
-// }
-
-// .hamburger.on span::before {
-//   transform: rotate(45deg) translate(5px, 5px);
-// }
-
-// .hamburger.on span::œafter {
-//   transform: rotate(-45deg) translate(7px, -8px);
-// }
-/* ハンバーガーメニューここまで */
+}

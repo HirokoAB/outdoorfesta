@@ -84,11 +84,11 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 add_action( 'init', 'create_post_type' );
 
 function create_post_type() {
-register_post_type( 'event', // 投稿タイプ名の定義
+register_post_type( 'outdoor', // 投稿タイプ名の定義
 array(
 'labels' => array(
-'name' => __( 'イベント' ), // 表示する投稿タイプ名
-'singular_name' => __( 'イベント' )
+'name' => __( 'アウトドア' ), // 表示する投稿タイプ名
+'singular_name' => __( 'アウトドア' )
 ),
 'supports' => array( 'title', 'editor', 'thumbnail' ),
 'public' => true,
@@ -100,8 +100,9 @@ array(
 
 
 
-
-
+//固定ページの定義//
+define('BLOG', 14);
+define('HOME',84);
 
 
 

@@ -1,7 +1,7 @@
 
 	<?php $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1 ;  ?>
 	<?php $loop  = new WP_Query(array(
-	"post_type" => "event",
+	"post_type" => "outdoor",
     "paged" => $paged,
     "posts_per_page" => 4,
     "post_status" => "publish"
@@ -16,7 +16,7 @@
 
         <div class="blog-container">
         	<div class="post-title">
-        		<h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
+        		<h2><i class="fas fa-campground"></i><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
         	</div>
 
         	<div class="post-date">
