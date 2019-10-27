@@ -51,7 +51,7 @@
 						
 						<div  type="image/svg+xml" class="map keybox" id="">
 							<img class="key" src="<?php echo get_template_directory_uri(); ?>/img/map_keybox.svg" usemap="#tgitem" alt="" />
-							<img class="guide flash" src="<?php echo get_template_directory_uri(); ?>/img/guide.svg" alt="">
+							<img class="guide flash" src="<?php echo get_template_directory_uri(); ?>/img/guide_2.svg" alt="">
 						</div>	
 						<div  type="image/svg+xml" class="map eagle shake">
 							<img  src="<?php echo get_template_directory_uri(); ?>/img/map_eagle.svg">

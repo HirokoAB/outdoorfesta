@@ -19,7 +19,7 @@ area {
   width: 100vw;
   height: 100vw;
   min-height: 100vh;
-  background: url(../img/sky_2.jpeg);
+  background: url(../img/sky_bl.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transform: translate3d(0, 0, 0);
@@ -82,7 +82,7 @@ video {
   width: 300px;
   position: relative;
   top: -160px;
-  left: 300px;
+  left: 60px;
   opacity: 0.8;
 }
 
