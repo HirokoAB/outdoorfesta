@@ -349,8 +349,21 @@ video {
 }
 
 @media screen and (max-width: 1024px) {
+  .guide {
+    width: 200px;
+    top: -250px;
+    left: 30px;
+  }
   .keybox, .compass {
     margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .guide {
+    width: 100px;
+    top: -50px;
+    left: 100px;
   }
 }
 
@@ -374,16 +387,15 @@ video {
     width: 350px;
     height: auto;
   }
-  .keybox, .compass {
-    top: -10px;
-  }
-  .compass {
-    top: -20px;
-  }
   .item_up {
     margin-top: -5px;
   }
   .item_dwn, .item {
     margin-top: 3px;
+  }
+  .guide {
+    width: 80px;
+    top: -30px;
+    left: 50px;
   }
 }
