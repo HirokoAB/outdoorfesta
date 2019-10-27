@@ -15,14 +15,15 @@ area {
   outline: none;
 }
 
-
+// linear-gradient( 180deg, rgba(115, 78, 48, 0.7), rgba(115, 78, 48, 0.7)),
 
 .video_wrappar {
   width: 100vw;
   height: 100vw;
   min-height: 100vh;
-  background: 
-  url(../img/sky_2.jpeg);
+  background:
+  url(../img/sky_bl.jpg);
+  
   background-size: cover;
   background-repeat: no-repeat;
   transform:translate3d(0,0,0);
@@ -79,7 +80,7 @@ video {
   width:300px;
   position:relative;
   top:-160px;
-  left:300px;
+  left:60px;
   opacity:0.8;
 }
 
