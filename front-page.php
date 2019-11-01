@@ -16,9 +16,9 @@
 			
 				<div class="map_container">
 						<div  type="image/svg+xml" class="map map_base">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/map_base.png" alt="" class="base_img"/>
+							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_base_single.svg" usemap="#tgitem" alt="" />
 						</div>
-						<div  type="image/svg+xml" class="map main_title">
+						<!-- <div  type="image/svg+xml" class="map main_title">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/map_title.svg">	
 						</div>
 						<div  type="image/svg+xml" class="map sub_title">
@@ -58,7 +58,7 @@
 						</div>
 						<div  type="image/svg+xml" class="map compass">
 							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_compass.svg">
-						</div>
+						</div> -->
 
 					<map name="tgitem">
 					  <area onFocus="this.blur();" shape="rect" coords="64,70,78,86" href="https://www.tamipack.jp/" alt="たみ子の海パックホームページへ遷移" target="_blank" />

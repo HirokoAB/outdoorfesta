@@ -1,7 +1,12 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
+
+// body{
+//   overflow : hidden;
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   margin: 0;
+//   border: none;
+// }
 
 #cover_img > img {
   width: 100vw;
@@ -15,7 +20,6 @@ area {
   outline: none;
 }
 
-// linear-gradient( 180deg, rgba(115, 78, 48, 0.7), rgba(115, 78, 48, 0.7)),
 
 .video_wrappar {
   width: 100vw;
@@ -58,16 +62,16 @@ video {
   position: absolute;
   width: 90%;
   height: auto;
-  transform:translate3d(0,0,0);
+  // transform:translate3d(0,0,0);
 }
 .map_base{
-  transform:translate3d(0,0,0);
+  // transform:translate3d(0,0,0);
 }
 .base_img {
   width: 100%;
-  -webkit-transform: perspective(700px) rotateX(55deg);
-  transform: perspective(700px) rotateX(55deg);
-}
+//   -webkit-transform: perspective(700px) rotateX(55deg);
+//   transform: perspective(700px) rotateX(55deg);
+ }
 
 .mian_title.sub_title {
   margin-top: 3px;
@@ -79,9 +83,8 @@ video {
 .guide{
   width:300px;
   position:relative;
-  top:-160px;
+  top:-190px;
   left:60px;
-  opacity:0.8;
 }
 
 .arrow_box {
