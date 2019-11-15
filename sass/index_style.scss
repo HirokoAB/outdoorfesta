@@ -67,11 +67,15 @@ video {
 .map_base{
   // transform:translate3d(0,0,0);
 }
-.base_img {
-  width: 100%;
+// .map_base>img{
+//   width:100vw;
+// }
+// .base_img {
+//   width: 100%;
+//   height:auto;
 //   -webkit-transform: perspective(700px) rotateX(55deg);
 //   transform: perspective(700px) rotateX(55deg);
- }
+ // }
 
 .mian_title.sub_title {
   margin-top: 3px;

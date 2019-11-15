@@ -2,5 +2,5 @@
 /*
 Template Name: Top Page
 */
-readfile( ABSPATH . '/front-page.php');
+readfile( ABSPATH . '/front-page_2.php');
 ?>

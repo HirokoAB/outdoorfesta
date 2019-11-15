@@ -1,45 +1,45 @@
 //メニューのハンバーガー
-jQuery(function($) {
+// jQuery(function($) {
 
-  //ドロワーメニュー
-  $('.js-hamburger').on('click', function(){
-    let isActive = $(this).hasClass('on');
-    toggleDrower(isActive);
-  });
+//   //ドロワーメニュー
+//   $('.js-hamburger').on('click', function(){
+//     let isActive = $(this).hasClass('on');
+//     toggleDrower(isActive);
+//   });
 
-  //ハンバーガーメニューでドロップダウン
-  function toggleDrower(isActive) {
-    $('.js-hamburger')
-    if (isActive) {
-      $('#drower-bg').fadeOut(600);
-    } else {
-      $('#drower-bg').fadeIn(600);
-    }
-    $('.js-hamburger').toggleClass('on');
-    $('.js-drower').toggleClass('on');
-  }
+//   //ハンバーガーメニューでドロップダウン
+//   function toggleDrower(isActive) {
+//     $('.js-hamburger')
+//     if (isActive) {
+//       $('#drower-bg').fadeOut(600);
+//     } else {
+//       $('#drower-bg').fadeIn(600);
+//     }
+//     $('.js-hamburger').toggleClass('on');
+//     $('.js-drower').toggleClass('on');
+//   }
 
-});
+// });
 
 
 //スライダーのJS
-$(document).ready(function() {
+ $(document).ready(function() {
  
-  $("#slider1").owlCarousel();
+   $("#slider1").owlCarousel();
  
-});
+ });
 
 
-$('#timer').yycountdown({
- //カウントダウン開始日時
-  endDateTime   : '2020/3/28 10:00:00',  //カウントダウン終了日時
-  unit          : {d: '日', h: '時間', m: '分', s: '秒'},  //カウントダウン単位
-  // complete      : function(_this){  //カウントダウン完了時のコールバック
-  //                   _this.find('.yycountdown-box').css({color:'blue'});
-  //                 }
-});
+ $('#timer').yycountdown({
+  //カウントダウン開始日時
+   endDateTime   : '2020/3/28 10:00:00',  //カウントダウン終了日時
+   unit          : {d: '日', h: '時間', m: '分', s: '秒'},  //カウントダウン単位
+	 complete      : function(_this){  //カウントダウン完了時のコールバック
+                 _this.find('.yycountdown-box').css({color:'blue'});
+                   }
+ });
 
-console.log('タイマーの検査js');
+
 
 
 
@@ -69,32 +69,32 @@ $(function () {
 
 
 
-// function cover_image(){
+function cover_image(){
 
-//  var ww = $(window).width();
+ var ww = $(window).width();
 
-//  if (ww < 400){
-//    var elem = document.createElement("img");
+ if (ww < 400){
+   var elem = document.createElement("img");
 
   
-//    elem.src = "assets/img/yoko_guide.jpg";
-//    elem.style.position = "absolute";
-//    elem.className = "cover";
+   elem.src = "assets/img/yoko_guide.jpg";
+   elem.style.position = "absolute";
+   elem.className = "cover";
 
-//    document.getElementById("cover_img").appendChild(elem);
+   document.getElementById("cover_img").appendChild(elem);
 
-//  }else if(ww > 300){
-//    var box = document.getElementById("cover_img");
-//    var box = box.parentNode;
-//    box.removeChild(box);
-//  }
-// }
-// $(document).ready(function(){
-//  cover_image()
-// });
-// $(window).resize(function(){
-//  cover_image()
-// });
+ }else if(ww > 300){
+   var box = document.getElementById("cover_img");
+   var box = box.parentNode;
+   box.removeChild(box);
+ }
+}
+$(document).ready(function(){
+ cover_image()
+});
+$(window).resize(function(){
+ cover_image()
+});
 
 function add_flash(){
   var ww = $(window).width();
