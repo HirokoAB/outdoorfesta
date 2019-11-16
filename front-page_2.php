@@ -16,7 +16,7 @@
 			
 				<div class="map_container">
 						<div  type="image/svg+xml" class="map map_base">
-							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_base.svg" usemap="#tgitem" alt="" />
+							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_base.svg"  alt="" />
 						</div>
 						<div  type="image/svg+xml" class="map main_title">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/map_title.svg">	
@@ -37,20 +37,20 @@
 							<img class="holizontal_sec"src="<?php echo get_template_directory_uri(); ?>/img/map_lavel_2.svg">S
 						</div>
 						<div  type="image/svg+xml"  class="map item">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/map_overitem.svg" usemap="#tgitem" alt="ネイチャーパークスッポット名">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/map_overitem.svg"  alt="ネイチャーパークスッポット名">
 						</div>
 						<div  type="image/svg+xml" style="z-index:96;"class="map item icon">
-							<img  class="item_dwn"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_dwn.svg" usemap="#tgitem" alt="ネイチャーパークスッポット名">
+							<img  class="item_dwn"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_dwn.svg"  alt="ネイチャーパークスッポット名">
 						</div>
 						<div  type="image/svg+xml" style="z-index:97;"class="map item icon">
-							<img class="item_up"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up.svg" usemap="#tgitem" alt="ネイチャーパークスッポット名">
+							<img class="item_up"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up.svg"  alt="ネイチャーパークスッポット名">
 						</div>
 						<div  class="map item icon " style="z-index:97;">
-							<img class="item_up_2"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up_2.svg" usemap="#tgitem" alt="ネイチャーパークスッポット名">
+							<img class="item_up_2"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up_2.svg"  alt="ネイチャーパークスッポット名">
 						</div>
 						
 						<div  type="image/svg+xml" class="map keybox" id="">
-							<img class="key" src="<?php echo get_template_directory_uri(); ?>/img/map_keybox.svg" usemap="#tgitem" alt="" />
+							<img class="key" src="<?php echo get_template_directory_uri(); ?>/img/map_keybox.svg"  alt="" />
 							<img class="guide flash" src="<?php echo get_template_directory_uri(); ?>/img/guide_2.svg" alt="">
 						</div>	
 						<div  type="image/svg+xml" class="map eagle shake">
