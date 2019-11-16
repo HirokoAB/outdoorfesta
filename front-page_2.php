@@ -60,7 +60,7 @@
 							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_compass.svg">
 						</div>
 
-					<map name="tgitem">
+<!-- 					<map name="tgitem">
 					  <area onFocus="this.blur();" shape="rect" coords="64,70,78,86" href="https://www.tamipack.jp/" alt="たみ子の海パックホームページへ遷移" target="_blank" />
 					  <area onFocus="this.blur();" shape="rect" coords="50,92,85,108" href="#" alt="釣り体験" target="_blank" />
 					  <area onFocus="this.blur();" shape="rect" coords="91,108,121,134" href="https://o-eels.org/" alt="おきなくらイールズホームページへ遷移" target="_blank" />
@@ -71,7 +71,7 @@
 					  <area onFocus="this.blur();" shape="rect" coords="24,67,52,82" href="神割キャンプ場ホームページへ遷移" alt="神割キャンプ場ホームページへ遷移" target="_blank" />
 					  <area onFocus="this.blur();" shape="rect" coords="87,59,115,71" href="https://www.pref.miyagi.jp/soshiki/sz-seinen/" alt="志津川自然の家ホームページへ遷移" target="_blank" />
 					  <area onFocus="this.blur();" shape="rect" coords="3,104,52,148" href="<?php echo get_permalink( HOME );?> "alt="" target="_blank"/>
-					</map>
+					</map> -->
 					</div>
 			
       <!-- <video src="<?php echo get_template_directory_uri(); ?>/img/bk_sky5.mp4"  autoplay muted loop playsinline ></video> -->
