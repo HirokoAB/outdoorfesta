@@ -34,6 +34,41 @@
 
 
 
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 841.89 595.276">
+				  <defs>
+				    <style>
+				      .cls-2 {
+				        opacity: 0.1;
+				      }
+
+				      svg{
+				        width:auto;
+				        height:auto;
+				      }
+				    </style>
+				  </defs>
+				  <title>アセット 2</title>
+				  <g id="レイヤー_2" data-name="レイヤー 2">
+				    <g id="hotspot">
+				    	<!-- <g>タグはグループの意味
+				    		<!-- xlink:herefはSVG1.1以前の記述方法。2.0以降はhrefが使用されているが、iosのSafari対応が最近のためxlinkで記述。hrefと一緒に記述する方法もありその場合にはhrefが優先される　xlink:hrefは異なる名前空間を持っている。名前空間とは？ --> 
+				      <g>
+<!-- 				        <image class="cls-1"  xlink:href="<?php echo get_template_directory_uri(); ?>/img/map_eagle.svg"> -->
+				        <circle class="cls-2" cx="150.833" cy="288.483" r="31.252"/>
+				        <circle class="cls-2" cx="277.532" cy="298.91" r="31.252"/>
+				        <circle class="cls-2" cx="404.164" cy="256.029" r="31.252"/>
+				        <circle class="cls-2" cx="541.951" cy="184.512" r="31.252"/>
+				        <circle class="cls-2" cx="472.895" cy="292.043" r="31.252"/>
+				        <circle class="cls-2" cx="608.14" cy="277.473" r="31.252"/>
+				        <circle class="cls-2" cx="651.921" cy="371.639" r="31.252"/>
+				        <circle class="cls-2" cx="281.161" cy="412.4" r="31.252"/>
+				        <circle class="cls-2" cx="400.216" cy="473.805" r="31.252"/>
+				      </g>
+				    </g>
+				  </g>
+				</svg>
+
+
 
 
 
