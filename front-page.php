@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index_style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>frontpage1</title>
+	<title>戸倉ネイチャーパーク</title>
 
 </head>
 <body>
@@ -15,8 +15,8 @@
 			<div class="video_wrappar">
 			
 				<div class="map_container">
-						<div  type="image/svg+xml" class="map map_base">
-							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_base_single.svg" usemap="#tgitem" alt="" />
+						<div  type="image/svg+xml" class="map map_base" style="z-index:1;">
+							<img class="base_img" src="<?php echo get_template_directory_uri(); ?>/img/map_base.svg" usemap="#tgitem" alt="" />
 						</div>
 						<div  type="image/svg+xml" class="map main_title">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/map_title.svg">	
@@ -25,14 +25,13 @@
 							<img class=""src="<?php echo get_template_directory_uri(); ?>/img/map_sub_title.svg">	
 						</div>
 						
-						<div  type="image/svg+xml"  class="map map_base">
-						<div class="map_content ">
 						<div  type="image/svg+xml" class="map index ">
 							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_index.svg">
 						</div>
 						<div  type="image/svg+xml" class="map label vertical">
 							<img class="horizontal" src="<?php echo get_template_directory_uri(); ?>/img/map_label.svg">
 						</div>
+	
 						<div  type="image/svg+xml" class="map label_sec vertical_sec">
 							<img class="holizontal_sec"src="<?php echo get_template_directory_uri(); ?>/img/map_lavel_2.svg">
 						</div>
@@ -50,7 +49,7 @@
 						</div>
 						
 						<div  type="image/svg+xml" class="map keybox" id="">
-							<img class="key" src="<?php echo get_template_directory_uri(); ?>/img/map_keybox.svg" usemap="#tgitem" alt="" />
+							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_keybox.svg" usemap="#tgitem" alt="" />
 							<img class="guide flash" src="<?php echo get_template_directory_uri(); ?>/img/guide_2.svg" alt="">
 						</div>	
 						<div  type="image/svg+xml" class="map eagle shake">
@@ -59,6 +58,8 @@
 						<div  type="image/svg+xml" class="map compass">
 							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_compass.svg">
 						</div>
+					</div>
+				</div>
 
 					<map name="tgitem">
 					  <area onFocus="this.blur();" shape="rect" coords="64,70,78,86" href="https://www.tamipack.jp/" alt="たみ子の海パックホームページへ遷移" target="_blank" />
