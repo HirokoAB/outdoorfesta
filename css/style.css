@@ -68,6 +68,7 @@ img {
   font-weight: 700;
 }
 
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,9 +134,10 @@ img {
 }
 
 #timer {
+  min-width:10%;
   position: absolute;
   color: white;
-  font-family: "M PLUS Rounded 1c ";
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   max-width: 500px;
   text-align: center;
   margin-top: -1%;
@@ -145,16 +147,17 @@ img {
 
 .timer_title {
   font-size: 2rem;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .yycountdown-box {
+  display:flex;
   text-align: center;
 }
 
 .yyc-day-text, .yyc-hou-text,
 .yyc-min-text, .yyc-sec-text {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .owl-item > img {
