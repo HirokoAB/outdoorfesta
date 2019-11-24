@@ -41,6 +41,28 @@
                  _this.find('.yycountdown-box').css({color:'blue'});
                    }
  });
+//カウントダウンの表示を整えるためにDOM操作
+const a = document.getElementById("yy-box");
+
+//fixするために追加するタグの親要素
+const fixrap = document.getElementById("yy-day");
+//yy-dayの外側にfixlemのdivタグをつける
+fixrap.outerHTMl = "<div>" + fixrap.outerHTML + "</div>";
+console.log(fixrap.outerHTML);
+fixrap.insertBefore(a.firstChild);
+
+
+
+
+
+
+
+
+
+//fixするためのdivタグを作成
+// const fixelem = document.createElement('div');
+//fixするためのクラスを追加
+// fixelem.classList.add("fix");
 
 
 
@@ -72,36 +94,36 @@ $(function () {
 
 
 
-function cover_image(){
+// function cover_image(){
 
- var ww = $(window).width();
+//  var ww = $(window).width();
 
- if (ww < 400){
-   var elem = document.createElement("img");
+//  if (ww < 400){
+//    var elem = document.createElement("img");
 
   
-   elem.src = "assets/img/yoko_guide.jpg";
-   elem.style.position = "absolute";
-   elem.className = "cover";
+//    elem.src = "assets/img/yoko_guide.jpg";
+//    elem.style.position = "absolute";
+//    elem.className = "cover";
 
-   document.getElementById("cover_img").appendChild(elem);
+//    document.getElementById("cover_img").appendChild(elem);
 
- }else if(ww > 300){
-   var box = document.getElementById("cover_img");
-   var box = box.parentNode;
-   box.removeChild(box);
- }
-}
-$(document).ready(function(){
- cover_image()
-});
-$(window).resize(function(){
- cover_image()
-});
+//  }else if(ww > 300){
+//    var box = document.getElementById("cover_img");
+//    var box = box.parentNode;
+//    box.removeChild(box);
+//  }
+// }
+// $(document).ready(function(){
+//  cover_image()
+// });
+// $(window).resize(function(){
+//  cover_image()
+// });
 
-function add_flash(){
-  var ww = $(window).width();
-  if(ww < 400){
-    $('.icon').addClass('flash');
-  }
-}
+// function add_flash(){
+//   var ww = $(window).width();
+//   if(ww < 400){
+//     $('.icon').addClass('flash');
+//   }
+// }
