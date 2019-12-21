@@ -42,14 +42,28 @@
                    }
  });
 //カウントダウンの表示を整えるためにDOM操作
-const a = document.getElementById("yy-box");
+const parent = document.getElementById("yy-box");
 
-//fixするために追加するタグの親要素
-const fixrap = document.getElementById("yy-day");
+
+
+ //yyのレイアウトを整えるためにdivタグで囲む
+
+$('#yy-box').find('#yy-day , #yy-hour,.yyc-hou-text,.yyc-day-text').wrapAll('<div class="flex yy_upper">');
+$('#yy-box').find('.yyc-min , .yyc-min-text,.yyc-sec,.yyc-sec-text').wrapAll('<div class="flex yy_btm">');
+
+
+
+
+
+
+
+
+
+
 //yy-dayの外側にfixlemのdivタグをつける
-fixrap.outerHTMl = "<div>" + fixrap.outerHTML + "</div>";
-console.log(fixrap.outerHTML);
-fixrap.insertBefore(a.firstChild);
+// fixrap.outerHTMl = "<div>" + fixrap.outerHTML + "</div>";
+// console.log(fixrap.outerHTML);
+// fixrap.insertBefore(a.firstChild);
 
 
 
