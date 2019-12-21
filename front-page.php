@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index_style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="keywords" content="戸倉ネイチャーパーク,南三陸町戸倉,自然体験,戸倉水産">
 	<title>戸倉ネイチャーパーク</title>
 
 </head>
@@ -16,47 +17,47 @@
 			
 				<div class="map_container">
 						<div  type="image/svg+xml" class="map map_base" style="z-index:1;">
-							<img class="base_img" src="<?php echo get_template_directory_uri(); ?>/img/map_base.svg" usemap="#tgitem" alt="" />
+							<img class="base_img" src="<?php echo get_template_directory_uri(); ?>/img/map_base.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示する地図のベース画像" />
 						</div>
 						<div  type="image/svg+xml" class="map main_title">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/map_title.svg">	
 						</div>
 						<div  type="image/svg+xml" class="map sub_title">
-							<img class=""src="<?php echo get_template_directory_uri(); ?>/img/map_sub_title.svg">	
+							<img class=""src="<?php echo get_template_directory_uri(); ?>/img/map_sub_title.svg" alt="戸倉ネイチャーパークトップページに表示しているサイトのサブタイトルの画像">	
 						</div>
 						
 						<div  type="image/svg+xml" class="map index ">
-							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_index.svg">
+							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_index.svg" alt="戸倉ネイチャーパークトップページに表示している体験スポットの名称">
 						</div>
 						<div  type="image/svg+xml" class="map label vertical">
-							<img class="horizontal" src="<?php echo get_template_directory_uri(); ?>/img/map_label.svg">
+							<img class="horizontal" src="<?php echo get_template_directory_uri(); ?>/img/map_label.svg" alt="戸倉ネイチャーパークトップページに表示している体験スポットの説明">
 						</div>
 	
 						<div  type="image/svg+xml" class="map label_sec vertical_sec">
-							<img class="holizontal_sec"src="<?php echo get_template_directory_uri(); ?>/img/map_lavel_2.svg">
+							<img class="holizontal_sec"src="<?php echo get_template_directory_uri(); ?>/img/map_lavel_2.svg" alt="戸倉ネイチャーパークトップページに表示している体験スポットの名称">
 						</div>
 						<div  type="image/svg+xml"  class="map item">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/map_overitem.svg" usemap="#tgitem" alt="ネイチャーパークスッポット名">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/map_overitem.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
 						</div>
 						<div  type="image/svg+xml" style="z-index:96;"class="map item icon">
-							<img  class="item_dwn"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_dwn.svg" usemap="#tgitem" alt="ネイチャーパークスッポット名">
+							<img  class="item_dwn"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_dwn.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
 						</div>
 						<div  type="image/svg+xml" style="z-index:97;"class="map item icon">
-							<img class="item_up"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up.svg" usemap="#tgitem" alt="ネイチャーパークスッポット名">
+							<img class="item_up"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
 						</div>
 						<div  class="map item icon " style="z-index:97;">
-							<img class="item_up_2"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up_2.svg" usemap="#tgitem" alt="ネイチャーパークスッポット名">
+							<img class="item_up_2"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up_2.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
 						</div>
 						
 						<div  type="image/svg+xml" class="map keybox" id="">
 							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_keybox.svg" usemap="#tgitem" alt="" />
-							<img class="guide flash" src="<?php echo get_template_directory_uri(); ?>/img/guide_2.svg" alt="">
+							<img class="guide flash" src="<?php echo get_template_directory_uri(); ?>/img/guide_2.svg" alt="戸倉ネイチャーパークトップページに表示している同じサーバー上で公開しているサイトへ遷移する宝箱の画像">
 						</div>	
 						<div  type="image/svg+xml" class="map eagle shake">
-							<img  src="<?php echo get_template_directory_uri(); ?>/img/map_eagle.svg">
+							<img  src="<?php echo get_template_directory_uri(); ?>/img/map_eagle.svg"　alt="戸倉ネイチャーパークトップページに表示しているオオワシの画像">
 						</div>
 						<div  type="image/svg+xml" class="map compass">
-							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_compass.svg">
+							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_compass.svg"　alt="戸倉ネイチャーパークトップページに表示している方位磁石の画像">
 						</div>
 					</div>
 				</div>
