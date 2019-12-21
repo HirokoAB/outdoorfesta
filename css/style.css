@@ -137,7 +137,7 @@ img {
   min-width:10%;
   position: absolute;
   color: white;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'arial', sans-serif;
   max-width: 500px;
   text-align: center;
   margin-top: -1%;
@@ -152,12 +152,25 @@ img {
 
 .yycountdown-box {
   display:flex;
-  text-align: center;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 
 .yyc-day-text, .yyc-hou-text,
 .yyc-min-text, .yyc-sec-text {
   font-size: 2rem;
+  margin:0 3%;
+}
+
+.yy_upper,.yy_btm {
+  width:100%;
+  justify-content:center;
+  align-items:flex-end;
+  
+}
+.yy_btm{
+  margin-left:3%;
 }
 
 .owl-item > img {

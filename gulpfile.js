@@ -6,31 +6,7 @@ const sass = require("gulp-sass");
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
 
-gulp.task("default",function(){
-	//style.cssファイルを監視
-	return gulp.watch("./sass/**/style.scss",function() {
-		return(
 
-			gulp
-			.src("./sass/**/*.scss")
-			.pipe(
-				sass({
-					outputStyle:"expanded"
-				})
-					.on("error",sass.logError)
-				)
-			.pipe(postcss([
-				autoprefixer({
-					browsers:["last 2 versions","ie >= 11","Android >= 4"],
-					cascade: false
-				})
-				]))
-		    .pipe(gulp.dest("./css"))
-		    
-		    
-		);
-	});
-});
 
 gulp.task("default",function(){
 	//style.cssファイルを監視
@@ -52,6 +28,32 @@ gulp.task("default",function(){
 				})
 				]))
 		    .pipe(gulp.dest("./css"))
+		    
+		);
+	});
+});
+
+gulp.task("default",function(){
+	//style.cssファイルを監視
+	return gulp.watch("./sass/**/style.scss",function() {
+		return(
+
+			gulp
+			.src("./sass/**/style.scss")
+			.pipe(
+				sass({
+					outputStyle:"expanded"
+				})
+					.on("error",sass.logError)
+				)
+			.pipe(postcss([
+				autoprefixer({
+					browsers:["last 2 versions","ie >= 11","Android >= 4"],
+					cascade: false
+				})
+				]))
+		    .pipe(gulp.dest("./css"))
+		    
 		    
 		);
 	});
