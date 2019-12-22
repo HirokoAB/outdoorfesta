@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index_style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="keywords" content="戸倉ネイチャーパーク,南三陸町戸倉,自然体験,戸倉水産">
+	<meta name="keywords" content="戸倉ネイチャーパーク,南三陸町戸倉,戸倉,自然体験,遊びが学びに変わる場所,あそびがまなびにかわるばしょ,">
 	<title>戸倉ネイチャーパーク</title>
 
 </head>
