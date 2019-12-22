@@ -27,9 +27,8 @@
     "sass": "^1.23.0"
   },
   "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
+    "last 2 version",
+    "> 5%",
+    "ie >= 9"
   ]
 }
