@@ -7,7 +7,6 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   border: none;
@@ -65,7 +64,6 @@ area {
   background: url(../img/sky_bl.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   z-index: 0;
 }
@@ -98,12 +96,10 @@ video {
   position: absolute;
   width: 90%;
   height: auto;
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
 .map_base {
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
@@ -173,6 +169,17 @@ video {
 
 .item_up {
   margin-top: -1%;
+}
+
+.keybox {
+  position: relative;
+  top: -90px;
+}
+
+.compass {
+  position: relative;
+  right: -170px;
+  top: -80px;
 }
 
 .shake {
