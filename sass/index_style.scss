@@ -161,12 +161,21 @@ video {
 .item_up {
   margin-top: -1%;
 }
+.keybox{
+    position: relative;
+    top: -90px;
+}
+
+.compass{
+    position: relative;
+    right: -170px;
+    top: -80px;
+}
 
 .shake {
   -webkit-animation: shake 8s infinite ease-in alternate;
   animation: shake 8s infinite ease-in alternate;
 }
-
 @-webkit-keyframes shake {
   0% {
     -webkit-transform: translate(0, 0) rotate(-10deg);
