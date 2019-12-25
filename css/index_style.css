@@ -109,6 +109,7 @@ video {
 
 .map_base > img {
   width: 100vw;
+  margin-top: -30px;
 }
 
 .base_img {
