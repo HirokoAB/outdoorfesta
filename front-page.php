@@ -36,16 +36,16 @@
 						<div  type="image/svg+xml" style="z-index: 6" class="map label_sec vertical_sec">
 							<img class="holizontal_sec"src="<?php echo get_template_directory_uri(); ?>/img/map_lavel_2.svg" alt="戸倉ネイチャーパークトップページに表示している体験スポットの名称">
 						</div>
-						<div  type="image/svg+xml" style="z-index: 7"  class="map item">
+						<div  type="image/svg+xml" style="z-index: 17"  class="map item">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/map_overitem.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
 						</div>
-						<div  type="image/svg+xml" style="z-index: 8" class="map item icon">
+						<div  type="image/svg+xml" style="z-index: 18" class="map item icon">
 							<img  class="item_dwn"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_dwn.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
 						</div>
-						<div  type="image/svg+xml" style="z-index: 9" class="map item icon">
+						<div  type="image/svg+xml" style="z-index: 19" class="map item icon">
 							<img class="item_up"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
 						</div>
-						<div  type="image/svg+xml" style="z-index: 10"class="map item icon " >
+						<div  type="image/svg+xml" style="z-index: 20"class="map item icon " >
 							<img class="item_up_2"src="<?php echo get_template_directory_uri(); ?>/img/map_overitem_up_2.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
 						</div>
 						
