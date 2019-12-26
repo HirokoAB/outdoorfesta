@@ -76,7 +76,6 @@
 					</map>
 					</div>
 			
-      <!-- <video src="<?php echo get_template_directory_uri(); ?>/img/bk_sky5.mp4"  autoplay muted loop playsinline ></video> -->
 
 			</div>
 		</div>
