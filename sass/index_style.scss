@@ -55,13 +55,6 @@ area {
   width: 100vw;
   height: 100vw;
   min-height: 100vh;
-  background:
-  url(../img/sky_bl.jpg);
-  
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform:translate3d(0,0,0);
-  z-index: 0;
 }
 
 .video_wrappar > img {
@@ -77,14 +70,12 @@ video {
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: 1;
 }
 
 .map {
   position: absolute;
   top: 0;
-  height: 100%;
-  width: 100%;
+  width: 100vw;
 }
 
 .map_container {
@@ -92,21 +83,17 @@ video {
   position: absolute;
   width: 90%;
   height: auto;
-  transform:translate3d(0,0,0);
 }
-.map_base{
-  transform:translate3d(0,0,0);
-}
-.map_base>img{
+
+.map_base img{
   width:100vw;
-  margin-top:-30px;
 }
+
+
 .base_img {
   z-index:0;
   width: 100%;
   height:auto;
-  -webkit-transform: perspective(700px) rotateX(55deg);
-  transform: perspective(700px) rotateX(55deg);
  }
 
 .mian_title.sub_title {
