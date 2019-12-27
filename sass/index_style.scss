@@ -10,34 +10,6 @@ body{
   margin: 0;
   border: none;
 }
-
-/*z-idnex用CSS*/
-
-.z1{
-  z-index: 1;
-}
-.z2{
-  z-index: 2;
-}
-.z3{
-  z-index: 3;
-}
-.z4{
-  z-index: 4;
-}
-.z5{
-  z-index: 5;
-}
-.z6{
-  z-index: 6;
-}
-.z7{
-  z-index: 7;
-}
-.z8{
-  z-index: 8;
-}
-
 #cover_img > img {
   width: 100vw;
   height: auto;
@@ -79,7 +51,6 @@ video {
 }
 
 .map_container {
-  margin-top: -2%;
   position: absolute;
   width: 90%;
   height: auto;
@@ -91,19 +62,10 @@ video {
 
 
 .base_img {
-  z-index:0;
   width: 100%;
   height:auto;
  }
 
-.mian_title.sub_title {
-  margin-top: 3px;
-  margin-bottom:9px;
-  margin-bottom:10px;
-  }
-.key {
-  z-index: 90;
-}
 .guide{
   width:300px;
   position:relative;
@@ -136,18 +98,18 @@ video {
   content: " ";
 }
 
-.label_sec, .item_up_2 {
-  display: none;
-}
+// .label_sec, .item_up_2 {
+//   display: none;
+// }
 
-.item {
-  -webkit-transform: rotatex(-10deg);
-  transform: rotatex(-10deg);
-}
+// .item {
+//   -webkit-transform: rotatex(-10deg);
+//   transform: rotatex(-10deg);
+// }
 
-.item_up {
-  margin-top: -1%;
-}
+// .item_up {
+//   margin-top: -1%;
+// }
 .keybox{
     top: -90px;
 }

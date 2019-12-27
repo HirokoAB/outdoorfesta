@@ -27,18 +27,18 @@
 						<div  type="image/svg+xml" style="z-index: 4" class="map label">
 							<img class="horizontal" src="<?php echo get_template_directory_uri(); ?>/img/map_label.svg" alt="戸倉ネイチャーパークトップページに表示している体験スポットの説明">
 						</div>
-						<div  type="image/svg+xml" style="z-index: 5"  class="map item">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/map_item.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
+						<div  type="image/svg+xml" style="z-index: 5"  class="map compass">
+							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_compass.svg" usemap="" alt="" />
 						</div>
 						<div  type="image/svg+xml" style="z-index: 6" class="map keybox" id="">
 							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_keybox.svg" usemap="#tgitem" alt="" />
 							<img class="guide flash" src="<?php echo get_template_directory_uri(); ?>/img/guide_2.svg" alt="戸倉ネイチャーパークトップページに表示している同じサーバー上で公開しているサイトへ遷移する宝箱の画像">
 						</div>
-						<div  type="image/svg+xml" style="z-index: 7" class="map compass" id="">
-							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_compass.svg" usemap="" alt="" />
+						<div  type="image/svg+xml" style="z-index: 7" class="map item" id="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/map_item.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
 						</div>
-					</div>
 				</div>
+			</div>
 
 					<map name="tgitem">
 					  <area onFocus="this.blur();" shape="rect" coords="64,70,78,86" href="https://www.tamipack.jp/" alt="たみ子の海パックホームページへ遷移" target="_blank" />
