@@ -101,11 +101,6 @@ video {
   top: -90px;
 }
 
-.compass {
-  right: -170px;
-  top: 50px;
-}
-
 .shake {
   -webkit-animation: shake 8s infinite ease-in alternate;
   animation: shake 8s infinite ease-in alternate;
@@ -338,6 +333,9 @@ video {
   }
   .keybox, .compass {
     margin-top: -20px;
+  }
+  .keybox {
+    top: 0px;
   }
 }
 

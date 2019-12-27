@@ -30,9 +30,9 @@
 						<div  type="image/svg+xml" style="z-index: 5"  class="map compass">
 							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_compass.svg" usemap="" alt="" />
 						</div>
-						<div  type="image/svg+xml" style="z-index: 6" class="map keybox" id="">
+						<div  type="image/svg+xml" style="z-index: 6" class="map keybox flash" id="">
 							<img class="" src="<?php echo get_template_directory_uri(); ?>/img/map_keybox.svg" usemap="#tgitem" alt="" />
-							<img class="guide flash" src="<?php echo get_template_directory_uri(); ?>/img/guide_2.svg" alt="戸倉ネイチャーパークトップページに表示している同じサーバー上で公開しているサイトへ遷移する宝箱の画像">
+							<!-- <img class="guide flash" src="<?php echo get_template_directory_uri(); ?>/img/guide_2.svg" alt="戸倉ネイチャーパークトップページに表示している同じサーバー上で公開しているサイトへ遷移する宝箱の画像"> -->
 						</div>
 						<div  type="image/svg+xml" style="z-index: 7" class="map item" id="">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/map_item.svg" usemap="#tgitem" alt="戸倉ネイチャーパークトップページに表示している体験スポットのイラスト">
